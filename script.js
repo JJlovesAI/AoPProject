@@ -6,7 +6,7 @@ var btn = document.getElementById("agreeBtn");
 var checkbox = document.getElementById("agreeCheckbox");
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+var closeButton = document.getElementsByClassName("close")[0];
 
 // When the page loads, show the modal
 window.onload = function() {
@@ -24,6 +24,6 @@ btn.onclick = function() {
 }
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() {
+closeButton.onclick = function() {
   window.location.href = "https://google.com/404";
 }
