@@ -46,8 +46,7 @@
   }
   /* Scrollable content */
 .scrollable-content {
-    height: 80%; 
-    width: 80%;/* Adjust as needed */
+    height: 80%; /* Adjust as needed */
     overflow-y: auto;
 
   }
